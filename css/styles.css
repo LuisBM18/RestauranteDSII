@@ -39,23 +39,23 @@ section{
   padding: 3rem 9%;
 }
 
-.caja-productos{
+.caja-platillos{
   display: grid;
   grid-template-columns:0.1fr 2.5fr ;
   gap:1.5rem;
   cursor: pointer;
 }
-.caja-productos .izq-col .caja{
+.caja-platillos .izq-col .caja{
   padding:0;
   background: rgb(250, 248, 248);
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);  
 }
-.caja-productos .izq-col h2{
+.caja-platillos .izq-col h2{
   
 color:#fff ;
 }
 
-.caja-productos .izq-col .caja a{
+.caja-platillos .izq-col .caja a{
   padding: .5rem;
   font-size: 1.3rem;
   color: rgb(0, 0, 0);
@@ -64,11 +64,11 @@ color:#fff ;
   border-bottom: 1px solid rgb(228, 12, 12);
 }
 
-.caja-productos .izq-col .caja a p{
+.caja-platillos .izq-col .caja a p{
   margin-left: .8rem;
 }
 
-.caja-productos .izq-col .caja a span{
+.caja-platillos .izq-col .caja a span{
   margin-left: 10rem;
   color: #000000;
   background: rgba(196, 33, 33, 0.1);
@@ -76,25 +76,25 @@ color:#fff ;
   padding:.5rem;
 }
 
-.caja-productos .izq-col .caja img{
+.caja-platillos .izq-col .caja img{
   width: 60px;
 }
 
-.caja-productos .izq-col a:hover{
+.caja-platillos .izq-col a:hover{
   border-left: .3rem solid var(--green);
   background: #15b8f3;
   border-right: .1rem solid var(--orange);
 }
 
-.caja-productos .izq-col a:hover span{
+.caja-platillos .izq-col a:hover span{
   background-color:var(--orange);
   color: rgb(252, 245, 245);
 }
-.caja-productos .der-col .Rest{
+.caja-platillos .der-col .Rest{
   width: 100%;
 }
 
-.caja-productos .der-col .Rest{
+.caja-platillos .der-col .Rest{
   width: 100%;
 }
 .Rest  {
