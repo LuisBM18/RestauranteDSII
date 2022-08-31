@@ -5,8 +5,8 @@
 }
 body {
   margin: 0;
-    background-color: #333;
-    font-family: sans-serif;
+    background-color: rgb(83, 78, 78);
+    font-family: 'Courier New', Courier, monospace;
 }
 .navbar {
   background-color: #EDCB54;
@@ -28,7 +28,7 @@ body {
   list-style: none;
 }
 .navbar a {
-  text-decoration: none;
+  text-decoration: underline;
   color: rgb(0, 0, 0);
   cursor: pointer;
 }
@@ -48,7 +48,7 @@ section{
 .caja-platillos .izq-col .caja{
   padding:0;
   background: rgb(250, 248, 248);
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);  
+  box-shadow: 0 .5rem 1rem rgba(238, 241, 55, 0.938);  
 }
 .caja-platillos .izq-col h2{
   
@@ -56,9 +56,10 @@ color:#fff ;
 }
 
 .caja-platillos .izq-col .caja a{
+  text-decoration: underline;
   padding: .5rem;
-  font-size: 1.3rem;
-  color: rgb(0, 0, 0);
+  font-size: 1.4rem;
+  color: rgb(12, 11, 11);
   display: flex;
   align-items: center;
   border-bottom: 1px solid rgb(228, 12, 12);
@@ -69,6 +70,7 @@ color:#fff ;
 }
 
 .caja-platillos .izq-col .caja a span{
+  text-decoration: underline;
   margin-left: 10rem;
   color: #000000;
   background: rgba(196, 33, 33, 0.1);
@@ -81,13 +83,10 @@ color:#fff ;
 }
 
 .caja-platillos .izq-col a:hover{
-  border-left: .3rem solid var(--green);
   background: #15b8f3;
-  border-right: .1rem solid var(--orange);
 }
 
 .caja-platillos .izq-col a:hover span{
-  background-color:var(--orange);
   color: rgb(252, 245, 245);
 }
 .caja-platillos .der-col .Rest{
@@ -114,7 +113,7 @@ color:#fff ;
   z-index: 1;
 }
 .Rest .informacion h3 {
-  font-family:  sans-serif;
+  font-family:  'Courier New', Courier, monospace;
   font-size: 1.8em;
 }
 .Rest .informacion h1 {
@@ -123,7 +122,7 @@ color:#fff ;
   color: #EDCB54;
 }
 .Rest .informacion p {
-  font-family:  sans-serif;
+  font-family:  'Courier New', Courier, monospace;
 }
 .Rest .informacion .btn {
   font-size: 1em;
