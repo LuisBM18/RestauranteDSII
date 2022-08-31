@@ -42,6 +42,7 @@ section{
 
 .caja-platillos{
   display: grid;
+  justify-content: space-between;
   grid-template-columns:0.1fr 2.5fr ;
   gap:1.5rem;
   cursor: pointer;
@@ -141,6 +142,7 @@ color:#fff ;
 }
 .diametros {
   display: grid;
+  justify-content: space-between;
   cursor: pointer;
   height: 80px;
   align-items: center;
@@ -169,6 +171,7 @@ color:#fff ;
   color: rgb(35, 240, 35);
 }
 .footer{
+  justify-content: space-between;
   background: #000;
   color: rgb(241, 232, 232);
   padding: 10px;
@@ -182,8 +185,6 @@ color:#fff ;
 
  
 }
-
-
 @media (max-width: 1200px){
 
   html{
@@ -192,32 +193,19 @@ color:#fff ;
 
 }
 
-@media (max-width: 1200px){
+@media (max-width: 998px){
 
   .navbar{
-      padding: 2rem;
+      padding: 1rem;
   }
 
   }
   section{
 
-      padding: 2rem;
-  }
+    padding: 1rem;
+}
 
-  .caja-productos{
-      grid-template-columns: .7fr 2fr;
-  }
 
-  .caja-productos .izq-col .caja a{
-      justify-content: space-between;
-  }
-
-  .caja-productos .der-col{
-      margin-top: 2rem;
-  }
-  .footer .img{
-      font-size: 1.5rem;
-  }
 
 
 
