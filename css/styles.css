@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+    background-color: #333;
+    font-family: sans-serif;
+}
+.navbar {
+  background-color: #EDCB54;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  align-items: flex-end;
+}
+.navbar .logo {
+  height: 70px;
+  width: 70px;
+  grid-column: 2 / 3;
+}
+.navbar .menu {
+  grid-column: 5 / 7;
+  display: flex;
+}
+.navbar ul li {
+  margin-right: 10em;
+  list-style: none;
+}
+.navbar a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.navbar a:hover {
+  color: rgb(248, 244, 244);
+}
+section{
+  padding: 3rem 9%;
+}
+
+.caja-productos{
+  display: grid;
+  grid-template-columns:0.1fr 2.5fr ;
+  gap:1.5rem;
+  cursor: pointer;
+}
+.caja-productos .izq-col .caja{
+  padding:0;
+  background: rgb(250, 248, 248);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);  
+}
+.caja-productos .izq-col h2{
+  
+color:#fff ;
+}
+
+.caja-productos .izq-col .caja a{
+  padding: .5rem;
+  font-size: 1.3rem;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(228, 12, 12);
+}
+
+.caja-productos .izq-col .caja a p{
+  margin-left: .8rem;
+}
+
+.caja-productos .izq-col .caja a span{
+  margin-left: 10rem;
+  color: #000000;
+  background: rgba(196, 33, 33, 0.1);
+  border-radius: .5rem;
+  padding:.5rem;
+}
+
+.caja-productos .izq-col .caja img{
+  width: 60px;
+}
+
+.caja-productos .izq-col a:hover{
+  border-left: .3rem solid var(--green);
+  background: #15b8f3;
+  border-right: .1rem solid var(--orange);
+}
+
+.caja-productos .izq-col a:hover span{
+  background-color:var(--orange);
+  color: rgb(252, 245, 245);
+}
+.caja-productos .der-col .Rest{
+  width: 100%;
+}
+
+.caja-productos .der-col .Rest{
+  width: 100%;
+}
+.Rest  {
+  height: 83vh;
+  background-image: linear-gradient(rgba(16, 16, 16, .8), rgba(16, 16, 16, .9)) , url(https://blog.dazzlerhoteles.com/wp-content/uploads/2019/06/maras-1-1.jpg);
+  background-size: cover;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  position: relative;
+}
+.Rest .informacion {
+  grid-column: 7 / 10;
+  grid-row: 3 / 7;
+  color: rgb(250, 246, 246);
+  z-index: 1;
+}
+.Rest .informacion h3 {
+  font-family:  sans-serif;
+  font-size: 1.8em;
+}
+.Rest .informacion h1 {
+  font-weight: 900;
+  font-size: 5em;
+  color: #EDCB54;
+}
+.Rest .informacion p {
+  font-family:  sans-serif;
+}
+.Rest .informacion .btn {
+  font-size: 1em;
+  color:#fff;
+  background: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border:1px solid#EDCB54;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.Rest .informacion .btn:hover {
+  background-color: #EDCB54;
+  color:#181818;
+}
+.diametros {
+  display: grid;
+  cursor: pointer;
+  height: 80px;
+  align-items: center;
+  background-color: #181818;
+  color: #fff;
+  grid-template-areas: 
+    "lista de platillos - siguenos en " 
+  
+}
+.diametros .lista {
+  grid-template-areas: lista de platillos;
+  display: flex;
+  justify-content: center;
+  background-color: #EDCB54;
+  color:#181818;
+  padding: 26px;
+}
+.diametros .lista:hover {
+  color: rgb(248, 244, 244);
+}
+.diametros h2 {
+  grid-template-areas: siguenos en;
+  text-align: center;
+}
+.diametros h2:hover {
+  color: rgb(46, 141, 46);
+}
+.footer{
+  background: #000;
+  color: rgb(241, 232, 232);
+  padding: 10px;
+  text-align: center;
+}
+.footer img{
+  width: 40px;
+  margin-right: 100px;
+  position: center;
+  cursor: pointer;
+
+ 
+}
