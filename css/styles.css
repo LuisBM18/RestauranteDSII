@@ -10,6 +10,7 @@ body {
 }
 .navbar {
   background-color: #EDCB54;
+  justify-content: space-between;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   align-items: flex-end;
@@ -181,3 +182,43 @@ color:#fff ;
 
  
 }
+
+
+@media (max-width: 1200px){
+
+  html{
+      font-size: 55%;
+  }
+
+}
+
+@media (max-width: 1200px){
+
+  .navbar{
+      padding: 2rem;
+  }
+
+  }
+  section{
+
+      padding: 2rem;
+  }
+
+  .caja-productos{
+      grid-template-columns: .7fr 2fr;
+  }
+
+  .caja-productos .izq-col .caja a{
+      justify-content: space-between;
+  }
+
+  .caja-productos .der-col{
+      margin-top: 2rem;
+  }
+  .footer .img{
+      font-size: 1.5rem;
+  }
+
+
+
+
